@@ -19,7 +19,7 @@ $filename = 'index';
 
  }else {
     //如果不存在显示登入页面
-     include('./view/index/login.html');
+    $filename = "login";
  }
 
   include('./view/'.$path.'/'.$filename.'.html');
